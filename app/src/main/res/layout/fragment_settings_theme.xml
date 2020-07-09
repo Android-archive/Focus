@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_settings_theme_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="32sp"
+    android:paddingTop="16sp"
+    android:paddingRight="32sp"
+    tools:context=".settings.SettingsFragmentMeta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                app:strokeWidth="1dp"
+                android:elevation="2dp"
+                app:cardUseCompatPadding="false"
+                app:strokeColor="@color/cardview_light_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Productivity Theme"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simple and Minimal"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elegant theme."
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textColor="#fff" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:id="@+id/fragment_settings_theme_select_finn_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_select_theme"
+                        app:strokeColor="#fff"
+                        android:textColor="#fff"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="10dp"
+                app:strokeWidth="1dp"
+                android:elevation="2dp"
+                app:cardUseCompatPadding="false"
+                app:strokeColor="@color/cardview_light_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Theme"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="24sp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reduces strain on eyes"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Committed towards focus."
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Consumes less battery"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:textColor="#fff" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:id="@+id/fragment_settings_theme_select_dark_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_select_theme"
+                        app:strokeColor="#fff"
+                        android:textColor="#fff"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="10dp"
+                android:elevation="2dp"
+                app:cardUseCompatPadding="false"
+                app:strokeColor="@color/cardview_light_background"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Custom Theme"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="24sp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select your own wallpaper"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Elegant theme."
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:textColor="#fff" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:id="@+id/fragment_settings_theme_select_custom_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_select_theme"
+                        app:strokeColor="#fff"
+                        android:textColor="#fff"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

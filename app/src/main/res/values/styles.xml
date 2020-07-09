@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Personal Theme of Finn M Glas -->
+    <style name="finnmglasTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/finnmglasTheme_background_color</item>
+        <item name="colorPrimaryDark">@color/finnmglasTheme_background_color</item>
+        <item name="android:colorBackground">@color/finnmglasTheme_background_color</item>
+
+        <item name="colorAccent">@color/finnmglasTheme_accent_color</item>
+        <item name="android:fontFamily">@font/googlefont</item>
+        <item name="android:textColor">@color/finnmglasTheme_text_color</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="colorButtonNormal">@color/finnmglasTheme_accent_color</item>
+
+        <item name="android:popupMenuStyle">@style/PopupMenuCustom</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowFadeTransition</item>
+    </style>
+
+    <!-- A dark efficiency theme -->
+    <style name="darkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkTheme_background_color</item>
+        <item name="colorPrimaryDark">@color/darkTheme_background_color</item>
+        <item name="android:fontFamily">@font/googlefont</item>
+        <item name="colorAccent">@color/darkTheme_accent_color</item>
+
+        <item name="android:textColor">@color/darkTheme_text_color</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="colorButtonNormal">@color/darkTheme_accent_color</item>
+
+        <item name="android:popupMenuStyle">@style/PopupMenuCustom</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowFadeTransition</item>
+    </style>
+
+    <!-- Custom theme -->
+    <style name="customTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="colorButtonNormal">#252827</item>
+        <item name="android:fontFamily">@font/googlefont</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuCustom</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowFadeTransition</item>
+    </style>
+
+    <style name="PopupMenuCustom" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">#252827</item>
+        <item name="android:fontFamily">@font/googlefont</item>
+    </style>
+
+
+
+    <!-- Set the fade in animation on all activities by default -->
+    <style name="WindowFadeTransition">
+        <item name="android:fontFamily">@font/googlefont</item>
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

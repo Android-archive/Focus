@@ -1,0 +1,123 @@
+<resources>
+    <!-- General -->
+    <string name="app_name" translatable="false">Focus Launcher</string>
+    <string name="preference_file_key" translatable="false">V3RYR4ND0MK3YCR4P</string>
+
+    <!-- Errors, Exceptions (Alerts, Toasts ...) -->
+    <string name="none_found">None found</string>
+
+    <string name="alert_cant_open_title">Can\'t open app</string>
+    <string name="alert_cant_open_message">Want to change its settings (\'add it to the apps screen\')?</string>
+    <string name="toast_cant_open_message">Open settings to choose an app for this action</string>
+
+    <string name="alert_cant_choose_launcher">App Info</string>
+    <string name="alert_cant_choose_launcher_message">Your device does not support this feature. Manage application details instead?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_tab_app" translatable="false">Apps</string>
+    <string name="settings_tab_theme" translatable="false">Themes</string>
+    <string name="settings_tab_launcher" translatable="false">Misc</string>
+
+    <string name="settings_rate_google_play">Rate us on Google Play</string>
+    <string name="settings_show_tutorial">View Launcher Tutorial</string>
+
+    <string name="settings_choose_up">Swipe Up</string>
+    <string name="settings_choose_down">Swipe Down</string>
+    <string name="settings_choose_left">Swipe Left</string>
+    <string name="settings_choose_right">Swipe Right</string>
+    <string name="settings_choose_vol_up">Volume Up</string>
+    <string name="settings_choose_vol_down">Volume Down</string>
+    <string name="settings_choose_double_click">Double Click</string>
+    <string name="settings_choose_long_click">Long Click</string>
+    <string name="settings_choose_btn">Choose App</string>
+
+    <string name="app_menu_delete_text">Uninstall</string>
+    <string name="app_menu_info_text">App Info</string>
+
+    <string name="settings_select_launcher">Select Default Launcher</string>
+    <string name="settings_reset">Reset Settings</string>
+    <string name="settings_reset_message">You are going to discard all your preferences. Continue?</string>
+    <string name="settings_apps">View all apps</string>
+    <string name="settings_install">Install apps</string>
+    <string name="settings_home">Back Home</string>
+
+    <string name="settings_toast_store_not_found">PlayStore not found</string>
+
+    <string name="settings_select_theme">Select</string>
+    <string name="settings_select_image">Change Image</string>
+    <string name="settings_theme_examples">Examples</string>
+
+
+    <!-- Choose Activity -->
+    <string name="choose_title">Choose App</string>
+    <string name="choose_title_view">All Apps</string>
+
+    <string name="choose_back_settings">Back to Settings</string>
+
+    <string name="choose_removed_toast">Removed the selected application</string>
+    <string name="choose_not_removed_toast">Unable to remove application</string>
+
+    <!-- FirstStartup Activity -->
+    <string name="tutorial_title">Tutorial</string>
+    <string-array name="intro">
+        <!--item> heading | infoText | hintText | size | format </item-->
+        <item>|Quick guide to learn how to use this Launcher!\n\n|— Tap anywhere to continue —|36F|0</item>
+        <item>Concept|Completely minimal, efficient and free of distraction.|— Tap anywhere to continue —|36F|0</item>
+        <item>Concept|Ad free and no cluttering.|— Tap anywhere to continue —|36F|0</item>
+        <item>Usage|Your home screen contains the local date and time. No distraction.|— Tap anywhere to continue —|36F|0</item>
+        <item>Usage|Open your apps with a single swipe or button press.|— Tap anywhere to continue —|36F|0</item>
+        <item>Setup|We have set up some default actions for you…|— Use volume keys to navigate —|36F|0</item>
+        <item>Setup|Swipe Up: Open a Browser (%1$s)\n\nSwipe Down: Open internal Search App (%2$s)\n\n
+            Swipe Right: Open Mail (%3$s)\n\nSwipe Left: Open Calendar (%4$s)\n\n
+            Volume Up: Open a messenger (%5$s)\n\nVolume Down: Open Utilities (%6$s)|— Use volume keys to navigate —|18F|1
+        </item>
+        <item>Setup|Choose your own apps:\n\nOpen settings by tapping and holding the home screen.|— Use volume keys to navigate —|36F|0</item>
+        <item>|You are ready to get started!\n\n I hope this provides great productivity to you!\n\nStay Focused\n\n|Stay Productive|36F|0</item>
+    </string-array>
+
+    <!-- Default Apps for different actions (button-press, swipes ...) -->
+    <string-array name="default_up">
+        <item>org.mozilla.firefox|Firefox</item>
+        <item>com.sec.android.app.sbrowser|Samsung Internet</item>
+        <item>com.android.chrome|Chrome</item>
+    </string-array>
+
+    <string-array name="default_down">
+        <item>com.samsung.android.app.galaxyfinder|GalaxyFinder</item>
+        <item>com.prometheusinteractive.voice_launcher|VoiceSearch</item>
+    </string-array>
+
+    <string-array name="default_right">
+        <item>de.web.mobile.android.mail|WebMail</item>
+        <item>com.samsung.android.email.provider|Samsung Mail</item>
+        <item>com.google.android.gm|Google Mail</item>
+    </string-array>
+
+    <string-array name="default_left">
+        <item>com.google.android.calendar|Google Calendar</item>
+        <item>com.samsung.android.calendar|Samsung Calendar</item>
+    </string-array>
+
+    <string-array name="default_volume_up">
+        <item>com.whatsapp|WhatsApp</item>
+        <item>com.facebook.orca|Facebook Messenger</item>
+        <item>com.viber.voip|Viber</item>
+        <item>com.skype.raider|Skype</item>
+        <item>com.snapchat.android|Snapchat</item>
+        <item>com.instagram.android|Instagram</item>
+        <item>com.samsung.android.messaging|Samsung SMS</item>
+    </string-array>
+
+    <string-array name="default_volume_down">
+        <item>com.github.android|GitHub</item>
+        <item>com.soundbrenner.pulse|Soundbrenner Metronome</item>
+        <item>com.sec.android.app.popupcalculator|Calculator</item>
+    </string-array>
+
+    <string-array name="default_clock">
+        <item>com.sec.android.app.clockpackage|Android Clock</item>
+    </string-array>
+
+</resources>
